@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:rgb(219, 208, 189) ;
+    height: 65%;
+    
+}
+
+.ms{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.ss{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+h1 {
+    font-size: 36px;
+}
+
+nav {
+    background-color: #967e63; /* Hnědozelené pozadí pro navigaci */
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.article {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(206, 141, 141, 0.1); /* Průhledné bílé pozadí s 10% průhledností pro články */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.article h2 {
+    font-size: 24px;
+}
+
+.article p {
+    line-height: 1.6;
+}
+
+.spodok{
+    width: 100%;
+    padding: 0;
+    margin-bottom: -20;
+    
+}
